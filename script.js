@@ -1,6 +1,5 @@
-const btn = document.querySelector('[data-form-btn]');
+( () =>{const btn = document.querySelector('[data-form-btn]');
 
-console.log(btn);
 
 const createTask = (evento) => {
 
@@ -63,3 +62,5 @@ const completeTask = (event) => {
   element.classList.toggle('completeIcon')
 
 }
+
+})();
